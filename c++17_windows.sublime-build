@@ -1,0 +1,7 @@
+{
+    "shell_cmd": "g++ -std=c++17 -O2 -Wall -Wshadow -Wextra \"${file}\" && \"a\" < \"C:\\DEV\\CP\\inputf.txt\" > \"C:\\DEV\\CP\\outputf.txt\"",
+
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector":  "source.c++",
+}
