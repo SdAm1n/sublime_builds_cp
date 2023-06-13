@@ -1,0 +1,6 @@
+{
+"cmd" : ["g++ -std=c++17 -O2 -Wall -Wshadow -Wextra $file_name && timeout 6s ./a.out</mnt/sda1/CP/inputf.txt>/mnt/sda1/CP/outputf.txt"], 
+"selector" : "source.c",
+"shell": true,
+"working_dir" : "$file_path"
+}
